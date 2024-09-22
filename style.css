@@ -1,0 +1,30 @@
+body{
+    background-image: url("./images/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heading{
+    font-family: "Baskervville SC", serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(233, 232, 232);
+    text-shadow:2px 1px  rgb(177, 176, 176);
+}
+#inputValue{
+    font-weight: 500;
+}
+.searchbutton{
+    background-color: transparent;
+}
+.searchbutton:hover i{
+    color: black;
+}
+#inputValue{
+    text-transform: uppercase;
+}
+.weatherbox{
+    transition: height .6s ease;
+}
+
